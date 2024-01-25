@@ -1,5 +1,48 @@
 .main-nav {
-  padding-left: 40px;
   min-height: 70px;
-  background-color: #F6F6F6;
+  padding-left: 20px;
+}
+
+.nav-logo-text, .nav-logo-text:hover {
+  color: #00285F;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 18px;
+  justify-content: flex-end;
+}
+
+.main-menu a {
+  color: #00285F;
+}
+
+.main-menu a:hover {
+  color: #00285F;
+}
+
+.main-menu a.active {
+  color: #00285F;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+      padding-right: 10px;
+  }
+
+  #carrostop-navbar {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .main-menu a {
+      margin-left: 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+      width: 979px;
+  }
 }
