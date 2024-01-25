@@ -47,11 +47,35 @@ Este projeto é desenvolvido com o objetivo de desenvolver um frontend de catál
   - React Router DOM
   - Rotas e links
 
-## :white_check_mark: Requerimento
+## :white_check_mark: Requerimentos
 
-Antes de Iniciar :checkered_flag:, é necessário ter o ambiente [Node 14](https://nodejs.org/pt-br), [Git](https://git-scm.com) e [Yarn](https://classic.yarnpkg.com/en/docs/install) instalados.
+Antes de Iniciar :checkered_flag:, é necessário ter o ambiente [NodeJS 14](https://nodejs.org/pt-br), [Git](https://git-scm.com) e [Yarn](https://classic.yarnpkg.com/en/docs/install) instalados.
 
-### Começando com Create React App
+### Preparando o ambiente para o App React
+
+Alternativas para instalação do NodeJS:
+
+1. Utilizar o [NVM](https://github.com/nvm-sh/nvm) - gerenciador de versões do NodeJS
+   - [Instruções para instalar no Linux e Mac](https://github.com/nvm-sh/nvm#installing-and-updating);
+   - [Instruções para instalar no Window](https://github.com/coreybutler/nvm-windows?tab=readme-ov-file#nvm-for-windows).
+2. [Utilizar o Container Docker](https://docs.docker.com/get-started/02_our_app/) do NodeJS 14.
+
+No caso do uso do NVM seguir com os seguintes comandos no terminal:
+
+- Instalar e usar a versão específica do NodeJS:
+
+```bash
+nvm install 14.18.2
+nvm use 14.18.2
+```
+
+- Instalar e usar o Yarn
+
+```bash
+npm install -g yarn
+```
+
+### Começando um projeto com Create React App
 
 Este projeto foi inicializado com [Criando um React App](https://github.com/facebook/create-react-app).
 
@@ -67,9 +91,12 @@ git clone https://github.com/jocile/catalogo-de-carros.git
 
 - No diretório do projeto, você pode executar
 
-`yarn start`
+```bash
+yarn
+yarn start
+```
 
-> Executa o aplicativo no modo de desenvolvimento.
+> Isto irá Executar o aplicativo no modo de desenvolvimento.
 
 - Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
 
@@ -113,6 +140,8 @@ Você não precisa usar `eject`. O conjunto de recursos é adequado para pequena
 
 - :link: [Recursos para o Frontend](https://github.com/devsuperior/dscatalog-resources/blob/9b5846b1157b296c3012f16c817f70ad1929fa6f/frontend-web/README.md)
 - :art: [Protótipos de tela para o Frontend no Figma](https://www.figma.com/file/H1SC2bo3Zaycm3mJxkkMC4/bds-desafio-layout)
+- :wrench: [TreinaWeb - Instalando e gerenciando várias versões do NodeJS](https://www.treinaweb.com.br/blog/instalando-e-gerenciando-varias-versoes-do-node-js-com-nvm/)
+- :whale: [Criando um Container de Desenvolvimento no Visual Studio Code](https://code.visualstudio.com/docs/devcontainers/create-dev-container)
 - :books: Você pode aprender mais na [documentação do Create React App](https://facebook.github.io/create-react-app/docs/getting-started).
 - :books: Para aprender React, confira a [documentação do React](https://reactjs.org/).
 - :art: [W3Schools Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
