@@ -5,7 +5,6 @@
 ---
 
 ![Github top language](https://img.shields.io/github/languages/top/jocile/catalogo-de-carros?color=56BEB8)
-![Github top language](https://img.shields.io/github/languages/top/jocile/catalogo-de-carros?color=56BEB8)
 ![Github language count](https://img.shields.io/github/languages/count/jocile/catalogo-de-carros?color=56BEB8)
 ![Repository size](https://img.shields.io/github/repo-size/jocile/catalogo-de-carros?color=56BEB8)
 ![License](https://img.shields.io/github/license/jocile/catalogo-de-carros?color=56BEB8)
