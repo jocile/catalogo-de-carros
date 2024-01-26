@@ -48,7 +48,7 @@ Este projeto é desenvolvido com o objetivo de desenvolver um frontend de catál
 
 ## :white_check_mark: Requerimentos
 
-Antes de Iniciar :checkered_flag:, é necessário ter o ambiente [NodeJS 14](https://nodejs.org/pt-br), [Git](https://git-scm.com) e [Yarn](https://classic.yarnpkg.com/en/docs/install) instalados.
+Antes de Iniciar :checkered_flag:, é necessário ter o ambiente [NodeJS 18](https://nodejs.org/en), [Git](https://git-scm.com) e [Yarn](https://classic.yarnpkg.com/en/docs/install) instalados.
 
 ### Preparando o ambiente para o App React
 
@@ -57,15 +57,15 @@ Alternativas para instalação do NodeJS:
 1. Utilizar o [NVM](https://github.com/nvm-sh/nvm) - gerenciador de versões do NodeJS
    - [Instruções para instalar no Linux e Mac](https://github.com/nvm-sh/nvm#installing-and-updating);
    - [Instruções para instalar no Window](https://github.com/coreybutler/nvm-windows?tab=readme-ov-file#nvm-for-windows).
-2. [Utilizar o Container Docker](https://docs.docker.com/get-started/02_our_app/) do NodeJS 14.
+2. [Utilizar o Container Docker](https://docs.docker.com/get-started/02_our_app/) do NodeJS 18.
 
 No caso do uso do NVM seguir com os seguintes comandos no terminal:
 
 - Instalar e usar a versão específica do NodeJS:
 
 ```bash
-nvm install 14.18.2
-nvm use 14.18.2
+nvm install 18.18.1
+nvm use 18
 ```
 
 - Instalar e usar o Yarn
