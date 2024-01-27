@@ -1,0 +1,11 @@
+.btn-icon {
+    width: 174px;
+    height: 40px;
+    background-color: #00285F;
+    font-weight: 700;
+}
+
+.btn-icon:hover {
+    background-color:#F78B00;
+    border-radius: 5px;
+}
