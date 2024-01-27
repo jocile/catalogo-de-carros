@@ -48,27 +48,31 @@ Este projeto é desenvolvido com o objetivo de desenvolver um frontend de catál
 
 ## :white_check_mark: Requerimentos
 
-Antes de Iniciar :checkered_flag:, é necessário ter o ambiente [NodeJS 18](https://nodejs.org/en), [Git](https://git-scm.com) e [Yarn](https://classic.yarnpkg.com/en/docs/install) instalados.
+Antes de Iniciar :checkered_flag:, é necessário ter o ambiente [NodeJS 20](https://nodejs.org/en), [Git](https://git-scm.com) e [Yarn](https://classic.yarnpkg.com/en/docs/install) instalados.
 
 ### Preparando o ambiente para o App React
 
 Alternativas para instalação do NodeJS:
 
-1. Utilizar o [NVM](https://github.com/nvm-sh/nvm) - gerenciador de versões do NodeJS
-   - [Instruções para instalar no Linux e Mac](https://github.com/nvm-sh/nvm#installing-and-updating);
-   - [Instruções para instalar no Window](https://github.com/coreybutler/nvm-windows?tab=readme-ov-file#nvm-for-windows).
-2. [Utilizar o Container Docker](https://docs.docker.com/get-started/02_our_app/) do NodeJS 18.
+1. [Utilizar o Container Docker](https://docs.docker.com/get-started/02_our_app/) do NodeJS.
+   - O Container já tem todo o ambiente para executar o App usando o [Docker](https://blog.rocketseat.com.br/introducao-ao-docker-criando-um-servidor-web-com-node-js-e-subindo-para-o-container/)
 
-No caso do uso do NVM seguir com os seguintes comandos no terminal:
-
-- Instalar e usar a versão específica do NodeJS:
+2. Utilizar o [NVM](https://github.com/nvm-sh/nvm) - gerenciador de versões do NodeJS
+   - [Instruções para instalar no Linux e Mac](https://github.com/nvm-sh/nvm#installing-and-updating), ou [no Window](https://github.com/coreybutler/nvm-windows?tab=readme-ov-file#nvm-for-windows).
+   - Instalar e usar a última versão lts versão  do NodeJS:
 
 ```bash
-nvm install 18.18.1
-nvm use 18
+nvm install lts
 ```
 
-- Instalar e usar o Yarn
+- Para usar a versão do NodeJS, liste e use a versão desejada, por exemplo para a versão 20:
+
+```bash
+nvm list
+nvm use 20
+```
+
+- Instalar e usar o gerenciador de pacotes Yarn
 
 ```bash
 npm install -g yarn
@@ -121,7 +125,7 @@ yarn start
 > Seu aplicativo está pronto para ser implantado!\
 > Veja a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para mais informações.
 
-### :package: Comando `eject``
+### :package: Comando `eject` (OPCIONAL)
 
 O comando eject é um comando que permite personalizar a configuração de um projeto criado com create-react-app.
 
